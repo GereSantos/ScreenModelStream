@@ -1,0 +1,46 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    background-color: grey;
+}
+
+.Header {
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    display: flex;
+    border: solid;
+    height: 50px;
+}
+
+.itens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: solid;
+    margin: 8px;
+    height: 230px;
+    width: 322px;
+}
+
+.column {
+    margin-top: 2%;
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer{
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.7%;
+    background-color: white;
+    display: flex;
+    border: solid;
+    height: 50px;
+}
